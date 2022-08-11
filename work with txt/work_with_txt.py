@@ -1,8 +1,7 @@
 # with open('C:/Project/Github_Projects/python1/src/file.txt') as file:  # alias - псевдоним - Абсолютный путь
 # with open('src/file.txt') as file:  # alias - псевдоним - Относительный путь к файлу в папке в текущей директории
 # with open('file.txt') as file:  # alias - псевдоним - Относительный путь к файлу в текущей папке
-with open('src/dist/file.txt', "r",
-          encoding='utf-8') as file:  # alias - псевдоним - Относительный путь к файлу в текущей папке
+with open('src/dist/file.txt', "r", encoding='utf-8') as file:  # alias - псевдоним - Относительный путь к файлу в текущей папке
     # text = file.readline()  # читает выбранную строку
     # print(text)
     old_list = file.readlines()  # читает все строки - выдаёт нам массив(list - список)
